@@ -1,0 +1,29 @@
+body {
+    padding: 5% 10%;
+    font-family: Arial;
+    max-width: 65rem;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+h1 {
+    color: gray;
+    font-size: 60px;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+p {
+    font-size: 1.6rem;
+}
